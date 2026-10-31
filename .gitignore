@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+.secrets/
+*.json.key
+*-keypair.json
+node_modules/
+blockchain/.queue/
+dist/

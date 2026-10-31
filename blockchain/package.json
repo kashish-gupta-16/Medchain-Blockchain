@@ -1,0 +1,23 @@
+{
+  "name": "medchain-blockchain",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "tsx scripts/setup-wallet.ts",
+    "airdrop": "tsx scripts/airdrop.ts",
+    "balance": "tsx scripts/balance.ts",
+    "demo": "tsx scripts/demo.ts",
+    "serve": "tsx client/server.ts",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  }
+}
